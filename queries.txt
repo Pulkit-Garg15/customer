@@ -1,0 +1,12 @@
+create database mydb
+use mydb
+
+create table customer(
+id int PRIMARY KEY AUTO_INCREMENT,
+name varchar(20),
+email varchar(40)
+)
+
+select * from customer
+
+drop table customer
